@@ -1,0 +1,89 @@
+header{
+    background-color: #76C79E;
+    color: #1B4332;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.5px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.header-left{
+    text-align: left;
+}
+
+.header-right{
+    text-align: right;
+}
+
+.nav-bar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    gap: 20px;
+}
+
+.nav-bar .nav-links{
+    font-family: 'Open Sans', sans-serif;
+    color: #1B4332;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.about-page{
+    text-align: center;
+}
+
+.man-image{
+    width: 150px;
+}
+
+.about-description{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #1B4332;
+    font-weight: 700;
+    width: 500px;
+}
+
+.about-description{
+    text-align: left;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.domains{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+    padding: 10px 40px;
+    color: #1B4332;
+}
+
+.domains-grid{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin-top: 20px; 
+}
+
+.domains-card{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #1B4332;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.domains-card img{
+    width: 80px;
+    height: 70px;
+    margin-bottom: 10px;
+}
